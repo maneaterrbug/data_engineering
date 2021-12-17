@@ -1,4 +1,5 @@
 # Building a Champion Recommender Application for League of Legends
+Matt Ryan
 
 ## Abstract
 
@@ -14,9 +15,6 @@ Many of these sites are very handy tools and excel at stat-tracking and presenta
 
 The data used in this project is collected using the Riot Games API and is composed of match-data for players in the top 4 rank divisions of the LoL ranked ladder (approximately the top 1.85% of players, or ~55,000 players). For each player, data from their 50 most recent ranked matches is collected, totalling around 2.75 million records.
 
-## Algorithms
-
-
 
 
 ## Technologies
@@ -29,4 +27,4 @@ The data used in this project is collected using the Riot Games API and is compo
 
 ## Communication
 
-Currently the webapp has not been deployed. 
+Currently the webapp has not been deployed, and due to rate-limitations on data collection the NCF model has not been trained on the currently small dataset. Looking forward, the goal is to finalize development of a Streamlit app so that the current SVD recommender system cabn be deployed to end-users.
