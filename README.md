@@ -1,5 +1,4 @@
 # Building a Champion Recommender Application for League of Legends
-Matt Ryan
 
 ## Abstract
 
